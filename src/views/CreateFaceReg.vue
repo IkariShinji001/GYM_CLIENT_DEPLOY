@@ -11,7 +11,6 @@
 
 <script setup>
   import { ref, onMounted } from 'vue';
-  import { base64ToBlob } from 'base64ToBlob';
   import faceService from '../services/face.service';
   import { useQuasar, QSpinnerCube } from 'quasar'
 
