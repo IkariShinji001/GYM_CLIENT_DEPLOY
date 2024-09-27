@@ -9,7 +9,7 @@ const commonConfig = {
 };
 
 const api = axios.create({
-  baseURL: "http://localhost:3001/",
+  baseURL: "https://gym-management-fk1o.onrender.com/",
   ...commonConfig,
 });
 
